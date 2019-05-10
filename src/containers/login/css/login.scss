@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+:global{
+
+.login {
+    width: 100%;
+    height: 100%;
+    .login-count {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #333;
+        .left {
+           
+            h1 {
+                color: #fff;
+                text-align: center;
+            }
+            p{
+                color: #fff;
+            }
+        }
+        .right {
+            width: 500px;
+            height: 350px;
+            background: #fff;
+            margin-top: 100px;
+
+            .el-input__inner {
+                width: 80%;
+                text-indent: 2em;
+                margin: 10px auto;
+                display: block
+            }
+            .el-input__icon {
+                left: 55px;
+            }
+            .el-checkbox__inner {
+                margin-left: 50px;
+            }
+            .el-button {
+                width: 80%;
+                display: block;
+                margin: 20px auto;
+            }
+            h1 {
+                text-align: center;
+                margin: 20px 0;
+            }
+            a{
+                margin-left: 215px;
+            }
+        }
+
+    }
+}
+}

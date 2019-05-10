@@ -1,0 +1,108 @@
+@charset "utf-8";
+:global{
+.home {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    .user{
+        color:red;
+        margin: 0 10px;
+    }
+    .exit{
+        background: #fff;
+       margin: 0 10px;
+       padding: 5px 10px;
+       color: #000;
+    }
+    header {
+        width: 100%;
+        height: 40px;
+        background: blue;
+        line-height: 40px;
+        color:#fff;
+        display: flex;
+        justify-content: space-around;
+        // align-items: center;
+        button{
+            margin: 0 10px;
+        }
+    }
+    .left {
+        margin-left: 20px;
+    }
+    .center {
+        margin-left: -900px;
+    }
+    .right {
+        margin-right: 20px;
+    }
+    .count {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        // justify-content: space-around;
+        // align-items: center;
+        
+        .count-left {
+            width: 260px;
+            height: 100%;
+            background: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow-y: auto;
+          
+            .el-collapse {
+                width: 100%;
+                height: 100%;
+               
+            }
+            .el-menu-item{
+                background: #000;
+            }
+            .el-submenu__title{
+                color: #fff;
+            }
+            
+            .el-submenu__icon-arrow{
+                right:12px;
+               
+            }
+            .collapse-transition {
+               
+            }
+        }
+        .count-right{
+           width: 70%;
+          
+        }
+        .el-col{
+            width: 100%;
+        }
+    }
+}
+.tabs{
+    overflow: auto
+}
+.navbar-active {
+    width: 100%;
+    height: 40px;
+    background: blueviolet;
+    display: block;
+    color: #ffffff;
+    line-height: 40px
+}
+.el-menu{
+      background: #001529;
+}
+.el-col-8 {
+    width: 260px;
+  
+}
+
+.el-row {
+    width: 260px;
+    height: 100%;
+    background: #001529;
+}
+}
